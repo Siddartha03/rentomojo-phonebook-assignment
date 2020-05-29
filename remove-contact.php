@@ -4,7 +4,7 @@
     $id = $_GET['delete'];
     $q = "delete from phonebook where id=$id";
     if($conn->query($q)) {
-        header("Location:home.php");
+        header("Location:index.php");
     }else {
         echo "Error in deleting";
     }

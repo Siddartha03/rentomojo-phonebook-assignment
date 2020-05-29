@@ -44,12 +44,12 @@ if(isset($_POST['update'])) {
           $error['email'] = "Email has to be a valid email address!";
         }else if($row_name==$name && $row_dob==$dob && $row_mobile==$mobile && $row_email==$email) {
 			echo '<script>alert("Nothing is updated!")</script>';
-			echo "<script>window.location.href='home.php';</script>";
+			echo "<script>window.location.href='index.php';</script>";
 		}else {
 			$q = "update phonebook set name='$name', dob='$dob', mobile='$mobile', email='$email' where id=$id";
 			if($conn->query($q)) {
 				echo '<script>alert("Successfully updated!")</script>';
-				echo "<script>window.location.href='home.php';</script>";
+				echo "<script>window.location.href='index.php';</script>";
 				exit;
 		}
 	  }

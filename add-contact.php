@@ -41,7 +41,7 @@ if(isset($_POST["submit"]))
 		$res = $conn->query($q);
 		if($res)
 		{
-			header("Location:home.php");
+			header("Location:index.php");
 		}
 	  }
 	}
