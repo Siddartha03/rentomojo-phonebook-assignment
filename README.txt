@@ -1,14 +1,14 @@
 PhoneBook project in PHP
 
-=> main file :- home.php //To run the project
+=> main/host file :- indes.php //To run the project
     ->Execution process
-        ->Open xamp cotroll
+        ->Open xampp cotroll
         ->Start Appache and press admin
         ->Start MySql and press admin
         ->In Browser enter localhost:rentomojo/
-        ->Then it will open home.php (Home page)
+        ->Then it will open index.php (Home page)
 
-=>Home page
+=>Home page // index.php
     -> It displays
         ->Search bar //Search for names
         ->Below search bar, whatever contacts is there in database it displays in "Alphabetical order".
@@ -43,7 +43,7 @@ PhoneBook project in PHP
       But the first mobile number and first email will store in database and diplay in Home page.
       And the second, third mobile numbers and emils are not stored in database.
         ->Multiple mobile numbers and emails is not working because i use "Dynamically add/remove text-fields in php with JQuery"
-        ->By using Ajax calls we can overwrite this problem. //Important
+        ->By using Ajax calls we can overwrite this problem. //Important information.
     ->In home page multiple contact names will visible,
-      and if user clicks the any contact name. Inorder to display only that contact details
-      It will display all contact details.
+       and if user clicks any contact name. Inorder to display only that contact details
+       It will display all contact details.
