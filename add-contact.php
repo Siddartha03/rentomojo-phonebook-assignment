@@ -116,7 +116,7 @@ $(document).ready(function() {
 	<div id="add">
 		<p id="h"><b>RM-PHONEBOOK</b></p>
 	<div id="add1">
-		<i class="fa fa-arrow-left" id="ar"></i><?php echo " Add new contact"?><br><br>
+		<a href="index.php"><i class="fa fa-arrow-left" id="ar"></i></a><?php echo " Add new contact"?><br><br>
 		<?php echo "Name"?><br><br>
 		<input type="text" name="name" placeholder="Name" class="a1" value="<?php echo $name ?>">
 		<div class="text_color"><?php echo $error['name'] ?></div><br><br>
