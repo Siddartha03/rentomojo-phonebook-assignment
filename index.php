@@ -52,7 +52,7 @@ include('dbconnection.php');
 			<?php }?>
 		</div>
 		<div class="add-contact">
-			<a href="add-contact.php"><img src="./images/Plus-Symbol.png" alt="Add-contact-symbol" width="40px" height="40px"></a>
+			<a href="add-contact.php"><img src="Plus-Symbol.png" alt="Add-contact-symbol" width="40px" height="40px"></a>
 		</div>
 	</div>	
 </body> 
